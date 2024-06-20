@@ -1,0 +1,232 @@
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px 25px; 
+    margin-left: 15px; 
+}
+
+.Jindra-Hachova {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    color: white;
+    padding: 10px 20px; 
+    font-size: 36px; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+.Jindra-Hachova a {
+    text-decoration: none; 
+    color:  white;
+}
+
+.Jindra-Hachova a:visited {
+    text-decoration: none; 
+    color:  white;
+}
+
+.Jindra-Hachova a:hover {
+    text-decoration: underline; 
+    color: #000; 
+}
+
+.Jindra-Hachova a:active {
+    text-decoration: none; 
+    color: #000; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.everything {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 0rem 2rem;
+}
+.column-left h1 {
+    margin-bottom: 0rem;
+    font-size: 6rem;
+}
+.column-left p {
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+
+.omne {
+    background-color: green;
+    color: white; /* Text color for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and border in element's dimensions */
+}
+
+
+
+
+
+/* Reset for html and body */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Green background page class */
+.omne {
+    background-color: green; /* Green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and border in element's dimensions */
+    padding: 20px; /* Padding for spacing */
+}
+
+/* Flexbox container for content */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start; /* Align items to the top */
+    width: 70%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width */
+    box-sizing: border-box;
+}
+
+/* Text content styling with flex direction column */
+.text-content {
+    display: flex;
+    flex-direction: column; /* Stack heading and text vertically */
+    flex: 1; /* Allow text to take available space */
+    color: black; /* Text color for contrast */
+    padding-right: 20px; /* Space between text and image */
+    max-width: 50%; /* Limit the max width to half of the container */
+}
+
+/* Additional text styling */
+.text-content p {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 10000em; /* Adjust font size as needed */
+    width: 10%; /* Ensure heading takes full width of the container */
+    text-align: center; /* Center heading text */
+}
+
+/* Image content styling */
+.image-content {
+    flex: 1; /* Allow image to take available space */
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    max-width: 70%; /* Limit the max width to half of the container */
+}
+
+.image-content img {
+    max-width: 100%; /* Image scales with container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+}
+
+/*start here*/
+
+.cenikcontainer {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .cenikbox {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    background-color: white;
+    border-radius: 25px;
+  }
+  
+  .cenikbox .cenyy {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  
